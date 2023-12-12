@@ -1,0 +1,17 @@
+[project]
+name = "conta_buongiorno"
+version = "1.0.0"
+description = "Conta Buongiorno is a playful project that analyzes morning greetings in a family WhatsApp group. It tracks the frequency and timing of \"buongiorno\" messages, showcasing a blend of technology and cultural tradition."
+authors = [
+    {name = "Fabio Dipilato", email = "fabiodip16@gmail.com"},
+]
+dependencies = [
+    "typer[all]>=0.9.0",
+]
+requires-python = ">=3.9"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
